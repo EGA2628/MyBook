@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/titleEt"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="text"
+        android:hint="@string/nombre_del_libro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/descriptionEt"
+        android:layout_margin="2dp"
+        android:background="@drawable/bg_edittext"
+        android:padding="10dp"
+        android:inputType="textImeMultiLine|textCapSentences"
+        android:hint="@string/comienza_a_escribir_tu_historia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="250dp"
+        android:gravity="start"
+        android:autofillHints="" />
+
+    <Button
+        android:id="@+id/saveBtn"
+        android:text="@string/guardar"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/listBtn"
+        android:text="Lista"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

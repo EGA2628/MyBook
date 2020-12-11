@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MyBook</string>
+    <string name="nombre_del_libro">Nombre del libro</string>
+    <string name="comienza_a_escribir_tu_historia">Comienza a escribir tu historia</string>
+    <string name="guardar">Guardar</string>
+</resources>
